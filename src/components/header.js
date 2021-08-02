@@ -27,6 +27,21 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      {/* --------------------------------- */}
+      {/* code below added by Xiaoyang Wang */}
+      <div class="navigation">
+        <div class="subheader">
+          <ul>
+            <h3>
+              <a href="https://daomao-first-netlify-site.netlify.app"><li>Home</li></a>
+              <a href="https://daomao-first-netlify-site.netlify.app/page-2/"><li>Page_2</li></a>
+              <a href="https://daomao-first-netlify-site.netlify.app/using-typescript/"><li>GoToUsingTypescript</li></a>
+            </h3>
+          </ul>
+        </div>
+      </div>
+      {/* code above added by Xiaoyang Wang */}
+      {/* --------------------------------- */}
     </div>
   </header>
 )
