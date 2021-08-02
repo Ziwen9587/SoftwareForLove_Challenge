@@ -5,6 +5,35 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
+
+/*———————————————————————————————————————*/
+/*Code below added by Xiaoyang(Owen) Wang*/
+.navigation{
+  width: 100%;
+  height: 30px;
+}
+
+.subheader{
+  margin: 0 auto;
+  
+}
+
+.subheader ul {
+  float: right;
+  padding: 0px 10px;
+}
+
+.subheader ul li{
+  float: left;
+  color:White;
+  display:table-cell;
+  line-height: 30px;
+  font-size: 22px;
+  padding-left: 24px;
+}
+/*Code above added by Xiaoyang(Owen) Wang*/
+/*———————————————————————————————————————*/
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
